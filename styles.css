@@ -1,0 +1,369 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic Styles */
+  body {
+   background-color: lightgreen;
+   backface-visibility: visible;
+    background-position:center ;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  /*  background-color: #faf7f7;*/
+  
+  }
+
+/* Basic styling for the language switcher container */
+.language-switcher {
+  display: flex;
+  justify-content: center; /* Center-align flags horizontally */
+  align-items: center; /* Center-align flags vertically */
+  margin-bottom: 20px;
+  padding: 10px; /* Add some padding around the flags */
+}
+
+/* Styling for flag images */
+.language-switcher img {
+  width: 24px; /* Adjust the width to your preference */
+  height: 16px; /* Adjust the height to your preference */
+  cursor: pointer;
+  margin: 0 5px; /* Space between flags */
+}
+
+  #myser{
+    background-color: lightgreen;
+  }
+  #about{
+    background-color:lightgreen;
+  }
+  /* Header Styles */
+  header {
+    /* Darker shade of blue for a professional look */
+    background-position: center;
+    color: #000000;
+    padding: 15px 0;
+    position: relative;
+    shape-image-threshold: unset;
+    background-color: #35a01b; /* Just for visibility */
+    padding: 20px;
+    box-shadow: 2px 4px 6px rgba(-4, 0, 5, 0.3);
+  }
+  
+  
+  header .container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/* styles.css */
+
+/* Container for the image */
+img {
+  width: 100%;
+ /* max-width: 800px;*/ /* Adjust this value as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 10px; /* Add padding if needed */
+}
+
+/* Responsive image styling */
+img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+}
+
+/* Optional: Add some hover effects */
+img:hover {
+  opacity: 0.8; /* Slightly reduce opacity on hover */
+  transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+  
+  header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fffcfc;
+  }
+  
+  nav {
+    position: relative;
+  }
+  h3{
+    align-content: center auto;
+    text-align: center;
+    color: #1725e9; 
+    text-decoration: underline;
+  }
+  ul{
+   text-decoration-style: calc();
+   text-align:center auto;
+   
+  }
+  hr{
+    line-height:cover ;
+  }
+  pre{
+    align-items: center auto;
+    align-content: center auto;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #e4e7e7; /* Gold color for hover effect */
+    background-color: rgba(255, 215, 0, 0.2); /* Light gold background */
+    border-radius: 4px;
+  }
+  
+  /* Dropdown Menu Styles */
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #005b96; /* Same as header */
+    padding: 10px 0;
+    list-style: none;
+    box-shadow: 0 4px 6px rgba(219, 70, 70, 0.2);
+    border-radius: 4px;
+    z-index: 1000;
+  }
+ 
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+  
+  nav ul li ul li {
+    margin: 0;
+  }
+  
+  nav ul li ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  nav ul li ul li a:hover {
+    color: #ffd700; /* Gold color for hover effect */
+    background-color: rgba(203, 216, 203, 0.2); /* Light gold background */
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url(pc/) no-repeat center center/cover;
+    color: #fff;
+    background-color:lightgreen;
+    padding: 80px 0;
+    text-align: center;
+    background-attachment: fixed; /* Parallax effect */
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  /* Content Sections */
+  .info, .services, .contact {
+    padding: 60px 0;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 25px;
+    color: #103772; /* Match header color */
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #ul{
+    font-size: x-large;
+    text-align: center;
+    
+  }
+  b{
+    text-align: center;
+ 
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services ul {
+    columns: 2; /* Responsive column layout for services */
+    column-gap: 20px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #005b96; /* Same as header for consistency */
+    color: #fff;
+     background-color: #35a01b;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  footer .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  footer p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      display: none; /* Hide menu initially */
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    nav ul li:hover ul {
+      display: none; /* Ensure dropdowns are hidden on small screens */
+    }
+  
+    nav.active ul {
+      display: flex; /* Show menu when nav is active */
+    }
+  
+    .services ul {
+      columns: 1; /* Single column on smaller screens */
+    }
+  
+    .hero h2 {
+      font-size: 28px;
+    }
+  
+    .hero p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Mobile Menu Button */
+  .mobile-menu-button {
+    display: none;
+    background: #005b96;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-menu-button {
+      display: block;
+    }
+  }
+  /* Ensure the header is styled */
+header {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  padding: 20px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Header shadow */
+  text-shadow: #000000;
+}
+
+/* Style the logo image */
+.logo {
+  width: 150px; /* Adjust width as needed */
+  height: 100px auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between the logo and the site title */
+}
+
+/* Optional: Style the site title */
+.site-title {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Adjust font size */
+}
+/* Basic styling for flags and language switcher */
+.language-switcher {
+  display: flex;
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Basic reset for the footer */
+footer {
+  padding: 20px;
+  background-color: #35a01b; /* Adjust as needed */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35a01b;
+}
+
+.footer-logo img {
+  max-width: 100px; /* Adjust size as needed */
+  height: auto;
+  display: flex;
+}
+
+/* Optional: Styling for other footer content */
+.footer-text { display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35a01b;
+}
+ 
+
+
